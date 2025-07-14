@@ -6,9 +6,10 @@ public class Turret : MonoBehaviour
     {
         Damage,
         Enpower,
-        Support,
         Other
     }
 
     public TurretType type;
+    public TurretBase parent;
+    public bool placed = false;
 }
